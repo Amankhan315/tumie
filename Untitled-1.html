@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logbox">
+                <img src="logo-light.png" alt="">
+            </div>
+            <ul class="contect">
+                <li class="list lcolor">HOME
+                    <ul class="drop">
+                        <li class="list2">Home one</li>
+                        <li class="list2">Home Two</li>
+                    </ul>
+                </li>
+
+                <li class="list">ABOUT
+                    <ul class="drop dro1"></ul>
+
+
+                </li>
+
+                <li class="list">SHOP
+                    <ul class="drop dro2">
+                        <ul class="contect2">
+                            <span class="heading">SHOP LAYOUT</span>
+                            <li class="list2">Shop 3 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                        </ul>
+                        <ul class="contect2">
+                            <span class="heading">SHOP LAYOUT</span>
+                            <li class="list2">Shop 3 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                        </ul>
+                        <ul class="contect2">
+                            <span class="heading">SHOP LAYOUT</span>
+                            <li class="list2">Shop 3 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+                        </ul>
+                    </ul>
+                </li>
+
+                <li class="list">BLOG
+                    <ul class="drop dro3">
+                        <ul class="contect2 contect3">
+                            <span class="heading">SHOP LAYOUT</span>
+                            <li class="list2">Shop 3 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+
+                        </ul>
+                        <ul class="contect2 contect3">
+                            <span class="heading">SHOP LAYOUT</span>
+                            <li class="list2">Shop 3 column</li>
+                            <li class="list2">Shop 4 column</li>
+                            <li class="list2">Shop 4 column</li>
+
+                        </ul>
+                    </ul>
+                </li>
+
+                <li class="list">PAGES
+                    <ul class="drop dro4">
+                        <ul class="contect2 contect4">
+
+                            <li class="list2">Account</li>
+                            <li class="list2">Login</li>
+                            <li class="list2">Regiter</li>
+                            <li class="list2">Page Not Found</li>
+
+                        </ul>
+                    </ul>
+                </li>
+
+                <li class="list">CONTACT
+                    <ul class="drop dro5"></ul>
+                </li>
+
+
+            </ul>
+            <div class="iconbar">
+                <div class="iconbox" onclick="abc()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="iconbox" onclick="click1()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="searchbox">
+            <div class="iconbox2" onclick="abc1()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="inputbox">
+                <h1>Start Typing And Press Enter To Search</h1>
+                <div class="box">
+                    <input placeholder="Search Entire Store..." name="" class="inp">
+                    <div class="iconbox3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="crossbar">
+                <h1 class="text">SHOPPING CART</h1>
+                <div class="iconbox4" onclick="click2()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="box2"></div>
+            <div class="box3">
+                <button class="bt">VIEW CART</button>
+                <button class="bt"> CHECKOUT</button>
+            </div>
+        </div>
+
+
+        <div class="iconbox5">
+            <div class="minibox">
+                <div class="circle" onclick="go1()">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle" onclick="go()">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="photobox">
+            <div class="childbox3">
+                <h1 class="text3 tex">100% GENUE PRODUCTS</h1>
+                <h1 class="text4 tex2">THIS FOOD BEST YOUR PET</h1>
+                <P class="para pa">Find a variety of properties that suit you very easilty
+                    Forget all difficulties in finding a residence for you </P>
+                <button class="bt3 bts">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="photobox2">
+            <div class="childbox">
+                <div class="box4">
+                    <div class="line"></div>
+                    <h1 class="uptext">UP TO 40% OFF</h1>
+                </div>
+                <h1 class="text2">A Greate Meal</h1>
+                <h1 class="text2">With Your Pet</h1>
+                <button class="bt2">SHOP NOW</button>
+            </div>
+            <div class="childbox2">
+                <div class="bigcircle"></div>
+                <div class="imgbox">
+                  
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="childbox4">
+        <div class="box5">
+            <div class="minibox2">
+                <img class="imgb" src="f1.png" alt="">
+            </div>
+            <div class="textbox">
+                <h1 class="heading2">Free Shipping</h1>
+                <p class="ptext">Capped at $39 per order</p>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="minibox2">
+                <img class="imgb" src="f2.png" alt="">
+            </div>
+            <div class="textbox">
+                <h1 class="heading2">Card Payments</h1>
+                <p class="ptext">12 Months Installments</p>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="minibox2">
+                <img class="imgb" src="f3.png" alt="">
+            </div>
+            <div class="textbox">
+                <h1 class="heading2">Easy Returns</h1>
+                <p class="ptext">Shop With Confidence</p>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="minibox2">
+                <img class="imgb" src="f4.png" alt="">
+            </div>
+            <div class="textbox">
+                <h1 class="heading2">24/7 Support</h1>
+                <p class="ptext">Contact 24 hours everyday</p>
+            </div>
+        </div>
+    </div>
+    <div class="secmain">
+        <div class="childbox5">
+            <h1 class="text5">BEST PRODUCT</h1>
+            <h1 class="heading3">Best Pet Food</h1>
+            <p class="para2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            </p>
+            <p class="para2">
+                Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata non proident, sunt
+                in culpa qui officia deserun mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                error.
+            </p>
+            <button class="bt2">SHOP NOW</button>
+        </div>
+        <div class="childbox6">
+            <img class="imgb" src="./1.png" alt="">
+        </div>
+    </div>
+    <div class="thirmain">
+        <div class="box6">
+            <img class="img2" src="./4.jpeg" alt="">
+            <div class="smallbox">
+                <h1 class="text6">- 25% Off</h1>
+                <h1 class="text7">Dog Dry Food & Medicine</h1>
+            </div>
+            <div class="minibox3">
+                SHOP NOW
+                <div class="line2"></div>
+
+            </div>
+        </div>
+        <div class="box6">
+            <img class="img2" src="./5.jpeg" alt="">
+            <img class="img2" src="./4.jpeg" alt="">
+            <div class="smallbox">
+                <h1 class="text6">- 25% Off</h1>
+                <h1 class="text7">Cat Dry Food & Medicine</h1>
+            </div>
+            <div class="minibox3">
+                SHOP NOW
+                <div class="line2"></div>
+
+            </div>
+        </div>
+        <div class="box6">
+            <img class="img2" src="./6.jpeg" alt="">
+            <img class="img2" src="./4.jpeg" alt="">
+            <div class="smallbox">
+                <h1 class="text6">- 25% Off</h1>
+                <h1 class="text7">Rabbit’s Food & Medicine</h1>
+            </div>
+            <div class="minibox3">
+                SHOP NOW
+                <div class="line2"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="childbox7">
+            <h1 class="texts">BEST PRODUCT</h1>
+            <h1 class="texts1">New Collection</h1>
+        </div>
+        <div class="barbox">
+            <li class="list3 " id="id1">NEW ARRIVAL </li>
+
+            <li class="list3 " id="id2">TRENDING </li>
+
+            <li class="list3" id="id3">BEST SELLERS </li>
+
+            <li class="list3" id="id4">FEATURED </li>
+
+            <li class="list3" id="id5">ON SALL </li>
+
+        </div>
+        <div class="box7">
+            <div class="boxe act id1 id3 id5">
+                <div class="imgbox2">
+                    <img class="img3" src="1.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id2 id4">
+                <div class="imgbox2">
+                    <img class="img3" src="2.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id3 id5">
+                <div class="imgbox2">
+                    <img class="img3" src="3.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id2 id4">
+                <div class="imgbox2">
+                    <img class="img3" src="4 (1).jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id3 id5">
+                <div class="imgbox2">
+                    <img class="img3" src="10.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id2 id4">
+                <div class="imgbox2">
+                    <img class="img3" src="6 (1).jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id3 id5">
+                <div class="imgbox2">
+                    <img class="img3" src="7.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left poup" onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 poup" onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+            <div class="boxe act id1 id2 id4">
+                <div class="imgbox2">
+                    <img class="img3" src="8.jpeg" alt="">
+                    <div class="boxe2">
+                        <div class="circle3">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="circle3 left " onclick="showme()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="circle3 left2 " onclick="showme2()">
+                            <i class="fa-regular fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text8">Joust Duffle Bag</h1>
+                <p class="ptext2">$20.19</p>
+            </div>
+        </div>
+        <div class="bigdiv">
+            <div class="childbox8">
+                <div class="crossbar2" onclick="back()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <h1 class="text9">
+                    Added To Cart Successfully!
+                </h1>
+                <div class="imgbox3">
+                    <img class="img2" src="2.jpeg" alt="">
+                </div>
+                <h1 class="text10">Joust Duffle Bag</h1>
+
+            </div>
+        </div>
+        <div class="bigdivs">
+            <div class="childbox9">
+                <div class="boxe3" onclick="showme3()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="boxe4">
+                    <img class="img4" src="quick-view1.jpeg" alt="">
+                </div>
+                <div class="boxe4">
+                    <div class="imgbox4">
+                        <img class="img4" src="Capture2.JPG" alt="">
+                    </div>
+                    <div class="iconsbar">
+
+                        <button class="bt4">1</button>
+
+                        <button class="bt5">ADD TO CART</button>
+                        <button class="bt6">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button class="bt6">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="parent2">
+        <div class="childbox10">
+            <img class="img5" src="divider3.png" alt="">
+        </div>
+        <div class="childbox11">
+            <h1 class="textes">SAVE 50% OFF</h1>
+            <h1 class="textes2">Best Deal Offer</h1>
+            <p class="para3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore etlop.</p>
+            <button class="bt2">SHOP NOW</button>
+        </div>
+    </div>
+    <div class="parent3">
+        <div class="textbar">
+            <h1 class="texts">TRENDING PRODUCTTS</h1>
+            <h1 class="texts1">Deal Of The Day</h1>
+
+        </div>
+        <div class="box8">
+            <div class="chlidbox12">
+                <div class="picbox">
+                    <div class="imgbox5">
+                        <img class="img3" src="8.jpeg" alt="">
+                        <div class="boxe6">
+                            <div class="circles">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="circles lefts" onclick="poups()">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                            <div class="circles left2s" onclick="poup()">
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="text8">Joust Duffle Bag</h1>
+                    <p class="ptext2">$20.19</p>
+                </div>
+                <div class="chliddiv">
+                    <div class="timediv">
+                        End In:
+                        <h1> <span class="hours"></span> : <span class="minutes">:</span> : <span
+                                class="seconds">:</span></h1>
+                        </h1>
+
+                    </div>
+                    <div class="headingbox">
+                        <h1 class="text11">Joust Duffle Bag</h1>
+                        <p class="ptext3">$20.19</p>
+                    </div>
+                    <div class="imgbox6">
+                        <div class="line3"></div>
+                        <li class="list4">Predecessor : None.</li>
+                        <li class="list4">Support Type : Neutral.</li>
+                        <li class="list4">Cushioning : High Energizing</li>
+                        <li class="list4">Cushioning : High Energizing</li>
+                    </div>
+                </div>
+            </div>
+            <div class="chlidbox12">
+                <div class="picbox">
+                    <div class="imgbox5">
+                        <img class="img3" src="8.jpeg" alt="">
+                        <div class="boxe6">
+                            <div class="circles">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="circles lefts " onclick="poups()">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                            <div class="circles left2s" onclick="poup()">
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="text8">Joust Duffle Bag</h1>
+                    <p class="ptext2">$20.19</p>
+                </div>
+                <div class="chliddiv">
+                    <div class="timediv">
+                        End In:
+                        <h1> <span class="hours"></span> : <span class="minutes">:</span> : <span
+                                class="seconds">:</span></h1>
+                        </h1>
+
+                    </div>
+                    <div class="headingbox">
+                        <h1 class="text11">Joust Duffle Bag</h1>
+                        <p class="ptext3">$20.19</p>
+                    </div>
+                    <div class="imgbox6">
+                        <div class="line3"></div>
+                        <li class="list4">Predecessor : None.</li>
+                        <li class="list4">Support Type : Neutral.</li>
+                        <li class="list4">Cushioning : High Energizing</li>
+                        <li class="list4">Cushioning : High Energizing</li>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="bigshow">
+            <div class="childbox8">
+                <div class="crossbar2" onclick="back()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <h1 class="text9">
+                    Added To Cart Successfully!
+                </h1>
+                <div class="imgbox3">
+                    <img class="img2" src="2.jpeg" alt="">
+                </div>
+                <h1 class="text10">Joust Duffle Bag</h1>
+
+            </div>
+        </div>
+        <div class="bigshows">
+            <div class="childbox9">
+                <div class="boxe3" onclick="showme3()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="boxe4">
+                    <img class="img4" src="quick-view1.jpeg" alt="">
+                </div>
+                <div class="boxe4">
+                    <div class="imgbox4">
+                        <img class="img4" src="Capture2.JPG" alt="">
+                    </div>
+                    <div class="iconsbar">
+
+                        <button class="bt4">1</button>
+
+                        <button class="bt5">ADD TO CART</button>
+                        <button class="bt6">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button class="bt6">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parent4">
+        <div class="textbar">
+            <h1 class="texts">TRENDING PRODUCTTS</h1>
+            <h1 class="texts1">Deal Of The Day</h1>
+
+        </div>
+        <div class="chlidbox12">
+            <div class="box9">
+                <div class="imgbox7">
+                    <img class="img6" src="1 (1).jpeg" alt="">
+                </div>
+                <div class="textbox2">
+                    <div class="bartext">By: Admin
+                        Sep 24,2022</div>
+                    <h1 class="textes2">Lorem ipsum dolor sit amet conse adipis</h1>
+                    <button class="bt7">READ MORE</button>
+                </div>
+            </div>
+            <div class="box9">
+                <div class="imgbox7">
+                    <img class="img6" src="2 (1).jpeg" alt="">
+                </div>
+                <div class="textbox2">
+                    <div class="bartext">By: Admin
+                        Sep 24,2022</div>
+                    <h1 class="textes2">Lorem ipsum dolor sit amet conse adipis</h1>
+                    <button class="bt7">READ MORE</button>
+                </div>
+            </div>
+            <div class="box9">
+                <div class="imgbox7">
+                    <img class="img6" src="3 (1).jpeg" alt="">
+                </div>
+                <div class="textbox2">
+                    <div class="bartext">By: Admin
+                        Sep 24,2022</div>
+                    <h1 class="textes2">Lorem ipsum dolor sit amet conse adipis</h1>
+                    <button class="bt7">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lastparent">
+        <div class="lastchild">
+            <div class="lastbox">
+                <span class="spn">About Us</span>
+                <p class="para4">
+                    Lorem ipsum dolor sit amet, consectel adipisicing elit, sed do eiusmod temp incidid ut labore et dolo
+                </p>
+                <div class="iconbar2">
+                    <div class="iconboxe">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconboxe">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="iconboxe">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                    <div class="iconboxe">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="lastbox">
+                <span class="spn">Information</span>
+                <li class="list5">About Us</li>
+                <li class="list5">Delivery Information</li>
+                <li class="list5">Privacy Policy</li>
+                <li class="list5">Terms & Conditions</li>
+                <li class="list5">Contact Us</li>
+                <li class="list5">Loag In Info
+                </li>
+            </div>
+            <div class="lastbox">
+                <span class="spn">Our Policy</span>
+                <li class="list5">Gallery</li>
+                <li class="list5">Brands</li>
+                <li class="list5">Gift Certificates</li>
+                <li class="list5">Specials</li>
+                <li class="list5">My Account Us</li>
+                <li class="list5">About Us
+                </li>
+            </div>
+            <div class="lastbox">
+                <span class="spn">Contact Info:</span>
+                <p class="para4">
+                    If you have any question.please contact us at <span class="spn2">demo@example.com</span> 
+                </p>
+                <div class="imgbox8">
+                    <img class="img7" src="Capture4.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="divline"></div>
+        <div class="lastdiv">
+            © 2021 Tuime. Made with <span class="spn3"><i class="fa-solid fa-heart"></i></span>  by Codecarnival.
+        </div>
+    </div>
+
+
+    <script src="sp.js"></script>
+</body>
+
+</html>
